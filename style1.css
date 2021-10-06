@@ -537,7 +537,7 @@ a {
 @media screen and (min-width: 768px) {
   .roasterPage-img {
     background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
-      url("roaster.jpg");
+      url("Roaster.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
