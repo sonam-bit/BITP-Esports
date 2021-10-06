@@ -1,0 +1,7 @@
+#A0A0A0- rgb(160,160,160)- Ligh Grey-
+-primaryColor: #A0A0A0;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #afafaf;
