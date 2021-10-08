@@ -56,14 +56,16 @@ h6 {
 }
 
 h1 {
-  font-size: 3.3rem;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
-
+h3 {
+  font-size: 1.4rem;
+}
 h4 {
   font-size: 1.2rem;
 }
@@ -196,9 +198,6 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .intro-title {
-    font-size: 4.5rem;
-  }
   .intro-text {
     width: 70%;
   }
@@ -301,6 +300,22 @@ a {
 .game-link {
   text-align: center;
 }
+.btn-grey {
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing);
+  color: var(--primaryColor);
+  border: 2px solid var(--mainGrey);
+  padding: 0.9rem 1.6rem;
+  margin: 1rem;
+  display: inline-block;
+  transition: var(--mainTransition);
+  cursor: pointer;
+}
+.btn-grey:hover {
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  box-shadow: 0 0 10px var(--mainGrey);
+}
 
 @media screen and (min-width: 768px) {
   .featured-center {
@@ -389,10 +404,8 @@ a {
 
 .contact-title {
   color: var(--mainBlack);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   letter-spacing: var(--letterspacing);
-  font-size: 1.6rem;
   margin-bottom: 0.5rem;
 }
 
@@ -410,7 +423,6 @@ a {
   outline: none;
   margin: 2rem 0;
   padding: 1.3rem 0;
-  font-size: 1rem;
   font-weight: bold;
   text-transform: none;
 }
@@ -467,7 +479,7 @@ a {
 
 .social-icon {
   color: var(--mainwhite);
-  font-size: 4rem;
+  font-size: 2rem;
   margin-right: 1rem;
   transition: var(--maintrasition);
 }
@@ -482,7 +494,6 @@ a {
   color: var(--mainwhite);
   letter-spacing: var(--letterspacing);
   margin-top: 1rem;
-  font-size: 1rem;
 }
 
 .logo {
@@ -492,8 +503,6 @@ a {
   margin: 0;
   margin-left: 45%;
   position: absolute;
-  /* justify-self: center;
-    align-content: center; */
   opacity: 0.5;
 }
 
@@ -604,7 +613,6 @@ a {
 .vs {
   margin-left: 25px;
   font-weight: 700;
-  font-size: 2.1rem;
   line-height: 2.4rem;
   letter-spacing: 1.13px;
   color: #2a2a2a;
@@ -642,8 +650,6 @@ a {
 .team2,
 .time {
   margin: 0 18px;
-  font-family: "HartwellAlt-Bolditalic", sans-serif;
-  font-size: 1.4rem;
   line-height: 2.4rem;
   letter-spacing: 1.13px;
   color: #2a2a2a;
@@ -658,7 +664,6 @@ a {
 .home {
   font-weight: 700;
   font-style: normal;
-  font-size: 2.4rem;
   letter-spacing: 0;
 }
 
