@@ -167,6 +167,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
+      url("carl-raw-m3hn2Kn5Bns-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .intro-title {
@@ -190,14 +196,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .intro {
-    background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
-      url("carl-raw-m3hn2Kn5Bns-unsplash.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
   .intro-text {
     width: 70%;
   }
@@ -211,7 +209,11 @@ a {
   background: var(--mainWhite);
 }
 
-.about-img,
+.about-img{
+  height: 456px;
+  display: flex;
+  justify-content: center;
+}
 .about-info {
   margin-bottom: 1rem;
 }
@@ -291,7 +293,6 @@ a {
 }
 
 .game-details p {
-  line-height: 0.2rem;
   text-transform: capitalize;
   color: var(--darkGrey);
   letter-spacing: 0.02rem;
@@ -537,6 +538,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
+      url("Roaster.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .roasterPage-text {
@@ -549,14 +556,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .roasterPage-img {
-    background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
-      url("Roaster.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
   .roasterPage-text {
     margin-top: 100px;
     width: 100%;
