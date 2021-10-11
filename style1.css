@@ -410,7 +410,6 @@ a {
 }
 
 .contact-text {
-  text-transform: lowercase;
   color: var(--primaryColor);
 }
 
