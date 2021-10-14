@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITP-Roasters</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./style1.css">
+    <!-- favi-con -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header id="home">
+        <!--Section-1 Home-->
+        <section class="pimg1">
+
+            <!--Nav bar (here to align links on LEFT SIDE we use "ml-auto" in collapse navbar )-->
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background-color:rgba(84, 93, 219, 0.7);">
+                <div class="container">
+                    <!--Logo-->
+                    <a class="navbar-brand" href="#"><img src="BITP_E-Sports.png" width="70" height="70" class="d-inline-block align-top" alt=""></a>
+                    <button id="nav-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#roaster">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="eventpage.html">Upcoming Event</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Roaster.html">Rosters</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div class="roasterPage-img">
+               
+                    
+                
+                <!-- RECENT MATCHES TEAMS -->
+                 
+
+                    <div class="row matches">
+                        <h1 class="roasterPage-text">RECENT MATCHES  <i class="fa fa-gamepad "aria-hidden="true"></i></h1>
+                       
+                        <div class="col-lg-3  matches-details">
+                            <div class="detail">
+                              <span class="team1"><img src="team3.jpg" class="team-img">  </span>
+                              <span class="vs">VS</span>
+                              <span class="team2"><img src="team2.png" class="team-img">  </span>
+                            </div>
+                            <button type="button" class="btn btn-outline-dark btn-details">Details</button>
+                        </div>
+
+                        <div class="col-lg-3  matches-details">
+                            <div class="detail">
+                              <span class="team1"><img src="team3.jpg" class="team-img">  </span>
+                              <span class="vs">VS</span>
+                              <span class="team2"><img src="team2.png" class="team-img">  </span>
+                            </div>
+                            <button type="button" class="btn btn-outline-dark btn-details">Details</button>
+                        </div>
+
+                        <div class="col-lg-3 hide matches-details">
+                            <div class="detail">
+                              <span class="team1"><img src="team3.jpg" class="team-img">  </span>
+                              <span class="vs">VS</span>
+                              <span class="team2"><img src="team2.png" class="team-img">  </span>
+                            </div>
+                            <button type="button" class="btn btn-outline-dark btn-details">Details</button>
+                        </div>
+    
+                      
+                    
+                       
+                        
+                    </div>
+               
+
+                </div>
+              
+            
+
+
+
+            <div class="col-lg-12 roasterPage-para ">
+                <p class="Intro"><img src="swordLogo.png" ALIGN="LEFT" class="sword">Quisque ut facilisis nibh, ac porta lacus. Donec at massa efficitur, ultrices sapien a, rutrum elit. Proin finibus molestie erat, a accumsan mi aliquet quis.</p>
+                <p class="exp"> Quisque porta ligula eu ante ultrices, sit amet placerat ex vulputate. Morbi in finibus diam. In lobortis, neque a iaculis maximus, tortor augue tempor metus, ut vehicula orci lectus sed lorem. Etiam ac consequat nisl. Curabitur lorem
+                    leo, sodales at interdum vel, lacinia iaculis neque. Phasellus sed molestie mauris.</p>
+            </div>
+
+            <!-- team-details -->
+            <h2 class="title">RECENT <span class="sub-title"> RESULTS </span></h2>
+            <!-- row1 starts -->
+            <div class="col-lg-12 team-details">
+
+                <span class="match__icon">
+                  <img src="swordLogo.png" class="sword ">
+              	</span>
+                <span class="time" data-format="MMM DD | h:mma">Sep 18 | 5:30am</span>
+
+
+                <span class="team1"> TEAM1 </span>
+
+                <div class="result">
+                    <span class="home">0</span> <span class="seperator">-</span> <span class="away">2</span>
+                </div>
+
+                <span class="team2">TEAM2 </span>
+
+            </div>
+            <!-- row1 ends -->
+
+            <!-- row2 starts -->
+            <div class="col-lg-12 team-details">
+
+                <span class="match__icon">
+                   <img src="swordLogo.png" class="sword ">
+               	</span>
+                <span class="time" data-format="MMM DD | h:mma">Sep 18 | 5:30am</span>
+
+
+                <span class="team1"> TEAM1 </span>
+
+                <div class="result">
+                    <span class="home">0</span> <span class="seperator">-</span> <span class="away">2</span>
+                </div>
+
+                <span class="team2">	TEAM2 </span>
+
+            </div>
+            <!-- row2 ends -->
+
+            <!-- row3 starts -->
+            <div class="col-lg-12 team-details">
+
+                <span class="match__icon">
+                     <img src="swordLogo.png" class="sword ">
+	              </span>
+
+                <span class="time" data-format="MMM DD | h:mma">Sep 18 | 5:30am</span>
+
+                <span class="team1"> TEAM1 </span>
+
+                <div class="result">
+                    <span class="home">0</span> <span class="seperator">-</span> <span class="away">2</span>
+                </div>
+
+                <span class="team2">	TEAM2 </span>
+
+            </div>
+            <!-- row3 ends -->
+
+            <!-- row4 starts -->
+            <div class="col-lg-12 team-details">
+
+                <span class="match__icon">
+                   <img src="swordLogo.png" class="sword ">
+              	</span>
+
+                <span class="time" data-format="MMM DD | h:mma">Sep 18 | 5:30am</span>
+
+                <span class="team1"> TEAM1 </span>
+
+                <div class="result">
+                    <span class="home">0</span> <span class="seperator">-</span> <span class="away">2</span>
+                </div>
+
+                <span class="team2">	TEAM2 </span>
+
+            </div>
+            <!-- row4 ends -->
+
+
+            <!-- TEAMS -->
+            <div class="Team">
+                <h2 class="title">Our <span class="sub-title">Teams</span></h2>
+                <div class="row Teams">
+
+                    <div class="col-lg-3 col-md-4 players-list">
+                        <div class="pro-img">
+                            <img src="avtar.png">
+                        </div>
+                        <div class="content">
+                        <h4>Name</h4>
+
+                        <span class=" position ">Position || </span>
+                        <span class="link-text ">Rank</span>
+                        <button type="button" class="btn btn-outline-light details">Details</button>
+                       </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 players-list">
+                        <div class="pro-img">
+                            <img src="avtar.png">
+                        </div>
+                        <div class="content">
+                        <h4>Name</h4>
+
+                        <span class=" position ">Position || </span>
+                        <span class="link-text ">Rank</span>
+                        <button type="button" class="btn btn-outline-light details">Details</button>
+                       </div>
+
+
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-4 players-list">
+                        <div class="pro-img">
+                            <img src="avtar.png">
+                        </div>
+                        <div class="content">
+                        <h4>Name</h4>
+
+                        <span class=" position ">Position || </span>
+                        <span class="link-text ">Rank</span>
+                        <button type="button" class="btn btn-outline-light details">Details</button>
+                       </div>
+
+
+                    </div>
+
+                    <div class="row Teams ">
+                        <div class="col-lg-3 col-md-4 players-list">
+                            <div class="pro-img">
+                                <img src="avtar.png">
+                            </div>
+                            <div class="content">
+                            <h4>Name</h4>
+    
+                            <span class=" position ">Position || </span>
+                            <span class="link-text ">Rank</span>
+                            <button type="button" class="btn btn-outline-light details">Details</button>
+                           </div>
+    
+    
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <!-- TEAMS ENDS -->
+
+            <!-- footer starts -->
+            <footer class="footer">
+                <div class="social-center">
+                    <div class="social-icons">
+                        <!-- social-icon -->
+                      
+                        <a href="#" class="social-icon">
+                                <i class="fa fa-github fa-xs"></i>
+                        </a>
+                        <!--end of social-icon -->
+                        <!-- social-icon -->
+                        <a href="#"  class="social-icon">
+                            <i class="fav fa fa-instagram fa-sm"></i>
+                        </a>
+                        <!--end of social-icon -->
+                        <!-- social-icon -->
+                        <a href="#" class="social-icon">
+                            <i class="fav fa fa-linkedin fa-sm"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa fa-youtube-play fa-sm" aria-hidden="true"></i>
+                         </a>
+                        </div>
+                        <p class="footer-text ">
+                            &copy;<span class="text-primary"></span>BITP-ESPORTS
+                            <br>
+                        </p>
+                        <!--end of social-icon -->
+                    
+                    <a href="#home" class="arrow" ><button type="button" class="btn btn-outline-light details"><i class="fa fa-arrow-up  "></i>To the top</button></a>
+        
+                </div>
+                <img src="BITP_E-Sports.png" class="logo" alt="">
+            </footer>
+            <!-- footer ends -->
+            
+</body>
+
+</html>
