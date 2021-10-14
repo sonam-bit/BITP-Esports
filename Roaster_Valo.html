@@ -62,6 +62,23 @@
         .w3-hover-opacity {
             cursor: pointer;
         }
+	/* Turn off parallax scrolling for tablets and phones */
+       @media only screen and (max-device-width: 1600px) {
+       .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+         min-height: 400px;
+         }
+        }
+      .fontblack
+       {
+      font-family: monospace;
+       color: black;
+      }
+    .transparency
+    {
+        opacity: 0.85;
+    }
+
 
     </style>
     <!-- style CSS -->
@@ -194,8 +211,8 @@
 
 
     <!-- TEAMS -->
-    <section id="Team">
-        <h2 class="title ">Our <span class="sub-title ">Team</span></h2>
+      <section id="Team">
+        <h2 class="title ">Our <span class="sub-title ">Teams</span></h2>
         <div class="row Teams ">
 
             <div class="col-lg-3 col-md-4 players-list ">
@@ -241,6 +258,51 @@
 
 
             </div>
+        </div>
+        <div class="row Teams ">
+            <div class="col-lg-3 col-md-4 players-list ">
+                <div class="pro-img ">
+                    <img src="avtar.png ">
+                </div>
+                <div class="content ">
+                    <p>Name</p>
+
+                    <span class=" position ">Position || </span>
+                    <span class="link-text ">Rank</span>
+                    <button type="button " class="btn btn-outline-light details ">Details</button>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-4 players-list ">
+                <div class="pro-img ">
+                    <img src="avtar.png ">
+                </div>
+                <div class="content ">
+                    <p>Name</p>
+
+                    <span class=" position ">Position || </span>
+                    <span class="link-text ">Rank</span>
+                    <button type="button " class="btn btn-outline-light details ">Details</button>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-4 players-list ">
+                <div class="pro-img ">
+                    <img src="avtar.png ">
+                </div>
+                <div class="content ">
+                    <p>Name</p>
+
+                    <span class=" position ">Position || </span>
+                    <span class="link-text ">Rank</span>
+                    <button type="button " class="btn btn-outline-light details ">Details</button>
+                </div>
+
+
+            </div>
+        </div>
 
             <div class="row Teams ">
                 <div class="col-lg-3 col-md-4 players-list ">
@@ -259,8 +321,9 @@
                 </div>
             </div>
 
+        
 
-        </div>
+    </section>
 <h2 class="title ">Additional<span class="sub-title ">Personnels</span></h2>
 <div class="col-lg-3 col-md-4 players-list ">
     <div class="pro-img ">
