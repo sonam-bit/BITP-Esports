@@ -543,6 +543,19 @@ a {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.roasterPage-img2 {
+  min-height: calc(100vh - 62px);
+  background: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(172, 4, 4, 0.7), rgba(0, 0, 0, 0.7)),
+      url("download (1).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .roasterPage-text {
   width: 85%;
