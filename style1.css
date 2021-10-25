@@ -5,7 +5,7 @@
 /* CSS global varibale */
 
 :root {
-  --primaryColor: #A0A0A0;
+  --primaryColor: #BC544B;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -166,7 +166,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(84, 93, 219, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(172, 4, 4, 0.7), rgba(0, 0, 0, 0.7)),
       url("carl-raw-m3hn2Kn5Bns-unsplash.jpg");
   background-position: center;
   background-size: cover;
@@ -503,15 +503,29 @@ a {
   margin: 0;
   margin-left: 45%;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .logo:hover {
   opacity: 1;
-  transform: translateY(-40%);
+  transform: scale(1.2,1.2);
   transition: var(--mainTransition);
 }
+.logotc {
+  width: 8%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-left: 45%;
+  position: absolute;
+  opacity: 0.8;
+}
 
+.logotc:hover {
+  opacity: 1;
+  transform: scale(1.5,1.5);
+  transition: var(--mainTransition);
+}
 .social-center {
   display: inline-block;
   width: 100%;
@@ -688,7 +702,7 @@ a {
   display: block;
   margin: 2rem;
   border-radius: 2px;
-  background: linear-gradient(rgba(82, 91, 216, 0.7), rgba(43, 41, 41, 0.7)),
+  background: linear-gradient(rgba(220, 28, 19, 0.7), rgba(105,105,105, 0.7)),
     url("team-list.jpg");
   background-position: center;
   background-size: cover;
